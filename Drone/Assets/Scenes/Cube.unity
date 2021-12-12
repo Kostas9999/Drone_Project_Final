@@ -861,7 +861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7251231222477137106, guid: 33020216aeda0fb459c544a014313fc0, type: 3}
       propertyPath: speed
-      value: 4000
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 7251231222477137106, guid: 33020216aeda0fb459c544a014313fc0, type: 3}
       propertyPath: PoweUp
@@ -969,7 +969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7251231223118281160, guid: 33020216aeda0fb459c544a014313fc0, type: 3}
       propertyPath: m_Size.y
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7251231223118281160, guid: 33020216aeda0fb459c544a014313fc0, type: 3}
       propertyPath: m_Size.z
@@ -3217,7 +3217,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 40b2889cba0a76d45ab2af04a2cf4b14, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

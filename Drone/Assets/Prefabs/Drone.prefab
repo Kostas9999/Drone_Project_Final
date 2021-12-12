@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209b99f54941da341a3f8b8c410a5d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drone_OBJ: {fileID: 0}
+  drone_OBJ: {fileID: 7251231222477137132}
   Drone: {fileID: 7251231222477137107}
   playZone: {fileID: 0}
   speed: 5000
