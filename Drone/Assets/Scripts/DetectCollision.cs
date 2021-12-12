@@ -37,7 +37,7 @@ public Sound sound_obj;
         //https://answers.unity.com/questions/738991/ontriggerenter-being-called-multiple-times-in-succ.html
         
         Sound_Script.hit_Zone();
-       if (!gameObject.CompareTag("PowerUp_Flame")){Destroy(gameObject);};                                            // destry item when collected
+       if (!gameObject.CompareTag("PowerUp_Flame")){Destroy(gameObject);};                // destry item when collected
 
         if (gameObject.CompareTag("Point_Item"))                        // adding value of item (*subject to change)
         { GameMngr_Script.score += 5; }
@@ -49,9 +49,7 @@ public Sound sound_obj;
         { GameMngr_Script.score += 15; }
 
        if (gameObject.CompareTag("PowerUp_Item_Flame"))
-        {GameMngr_Script.powerUp_Flame();}
-
-          
+        {GameMngr_Script.powerUp_Flame();}   
     }
 
     void destroy_FN()

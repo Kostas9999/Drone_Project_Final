@@ -29,7 +29,7 @@ public class Menu : MonoBehaviour
         FreeRun_Description.gameObject.SetActive(false);
         Cube_Description.gameObject.SetActive(true);
 
-        Cube_Top_Score.text = "Top score is: " + GameMngr.TopScore;
+        Cube_Top_Score.text = "Top score: " + GameMngr.TopScore;
     }
 
 
@@ -51,8 +51,8 @@ public class Menu : MonoBehaviour
     }
 
                                                                                                         // Links
-    public void link_GitHub() { Application.OpenURL("https://github.com/Kostas9999/IMM_Project_Alpha"); }
-    public void link_WebGL() { Application.OpenURL("https://kostas9999.github.io/IMM_Project_Alpha/"); }
+    public void link_GitHub() { Application.OpenURL("https://github.com/Kostas9999/Drone_Project_Final"); }
+    public void link_WebGL() { Application.OpenURL("https://kostas9999.github.io/Drone_Project_Final"); }
 
 
 

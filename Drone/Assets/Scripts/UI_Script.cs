@@ -29,7 +29,7 @@ public class UI_Script : MonoBehaviour
 
     void update_HUD()
     {
-        time_Text.text = "Time: " + (GameMngr_Script.time < 0 ? "0" : GameMngr_Script.time.ToString());
+        time_Text.text = "Survive: " + (GameMngr_Script.time < 0 ? "0" : GameMngr_Script.time.ToString());
         score_Text.text = "Score: " + GameMngr_Script.score;
         health_Text.text = "Health: " + GameMngr_Script.health;
     }

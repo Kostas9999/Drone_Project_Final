@@ -30,10 +30,7 @@ public class PlayerController : MonoBehaviour
         gameMngr_Script = GameObject.Find("GameMngr").GetComponent<GameMngr>();
         drone_RB = GetComponent<Rigidbody>();
 
-
-
         drone_OBJ = GameObject.Find("Drone_OBJ");
-
     }
 
     void Update()

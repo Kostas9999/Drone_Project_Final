@@ -11,7 +11,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
       
-        InvokeRepeating("randomSpawn", 3, 3f);
+        InvokeRepeating("randomSpawn", 3, 2f);
         InvokeRepeating("powrUpSpawn", 3, 20f);
 
         for (int i = 0; i < 10; i++) { randomSpawn(); }         // drop-in some items when started
