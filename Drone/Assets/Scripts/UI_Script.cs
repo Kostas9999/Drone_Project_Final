@@ -36,7 +36,7 @@ public class UI_Script : MonoBehaviour
 
     void update_End_Game_Pan()
     {
-        end_Game_Title.text = GameMngr_Script.survived ? "Survived" : "Fatal System Damage";  // choose title
+        end_Game_Title.text = GameMngr_Script.survived ? "Survived" : "System Damaged";  // choose title
 
         end_Game_Score.text = "Score: " + GameMngr_Script.score;
 
